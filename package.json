@@ -1,21 +1,26 @@
 {
-  "name": "11ty-landing-page",
+  "name": "@morl99/verkehrszeichen",
   "version": "0.0.1",
-  "description": "A simple landing page built with 11ty and Tailwind CSS",
+  "description": "Serve images of german street signs",
   "scripts": {
     "serve": "eleventy --serve",
     "deploy": "eleventy"
   },
   "author": "ttntm",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "@11ty/eleventy": "1.0.2",
     "autoprefixer": "^10.2.6",
     "cssnano": "^5.0.6",
+    "glob": "^8.0.3",
+    "glob-promise": "^5.0.0",
     "html-minifier": "^4.0.0",
     "postcss": "^8.3.5",
     "postcss-import": "^14.0.0",
+    "prettier": "^2.7.1",
     "tailwindcss": "^2.2.4"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^2.0.1"
   }
 }

@@ -1,17 +1,13 @@
 {
-  "baseURL": "https://hello.world",
-  "author": "hello.world",
-  "description": "hello.world - Venture Capital",
-  "title": "hello.world - Venture Capital",
+  "baseURL": "https://verkehrszeichen.netlify.app",
+  "author": "Morl99",
+  "description": "Deutsche Verkehrszeichen, simply served",
+  "title": "Verkehrszeichen",
   "language": "en",
   "social": [
     {
       "title": "Twitter",
-      "url": "https://twitter.com/#"
-    },
-    {
-      "title": "LinkedIn",
-      "url": "https://linkedin.com/company/#"
+      "url": "https://twitter.com/Morl99"
     }
   ]
 }
